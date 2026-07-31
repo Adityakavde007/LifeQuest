@@ -23,6 +23,7 @@ const Tasks = ({ tasks, setTasks, setXp, updateStreak, user }) => {
 
   //................Handeles...........
   const handleAddTask = async () => {
+
     if (taskTitle.trim() === "") {
       return;
     }
