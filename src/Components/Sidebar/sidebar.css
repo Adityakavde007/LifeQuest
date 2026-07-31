@@ -292,8 +292,8 @@ body {
         z-index: 1002;
 
         background: rgba(17, 25, 40, .95);
-        backdrop-filter: blur(28px);
-        -webkit-backdrop-filter: blur(25px);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(15px);
 
         isolation: isolate;
 
