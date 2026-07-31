@@ -25,7 +25,7 @@ const Login = () => {
     <div className="auth-container">
       <form className="auth-box" onSubmit={handleLogin}>
         <h1>LifeQuest</h1>
-        <h2>Welcome Back</h2>
+      
 
         <input
           type="email"
