@@ -338,6 +338,7 @@ body {
     .main-content {
 
         margin: 80px 10px 10px;
+        isolation: isolate;
     }
 
 }
