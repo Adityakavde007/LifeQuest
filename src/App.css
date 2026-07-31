@@ -65,21 +65,10 @@
     flex-direction: column;
   }
 
-  .sidebar{
-
-    background: rgba(17,25,40,.55);
-
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-
-    isolation: isolate;
-}
-
   .main-content {
     width: 100%;
     padding: 15px;
     margin-top: 70px;
-    isolation: isolate;
   }
 
   .stats-grid {
