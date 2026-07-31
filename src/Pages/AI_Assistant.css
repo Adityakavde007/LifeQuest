@@ -1,0 +1,214 @@
+.ai-page{
+
+    width:100%;
+    max-height: 86vh;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+.ai-page h1{
+
+    color:white;
+    margin-bottom:20px;
+
+}
+
+.chat-box{
+
+    flex:1;
+
+    background:rgba(0, 0, 0, 0);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:20px;
+
+    overflow-y:auto;
+
+    height:500px;
+
+}
+
+.message{
+    position: relative;
+
+    max-width:75%;
+
+    padding:16px 20px;
+
+    border-radius:18px;
+
+    margin-bottom:15px;
+
+    line-height: 1.7;
+
+    white-space: pre-wrap;
+
+    word-wrap:break-word;
+
+    overflow-wrap:break-word;
+
+}
+
+.message p{
+    margin:10px 0;
+}
+
+.message ul{
+
+    margin:10px 0;
+
+    padding-left:20px;
+
+}
+
+.message li{
+
+    margin-bottom:8px;
+
+}
+
+.copy-btn{
+
+    position:absolute;
+
+    right:12px;
+
+    bottom:10px;
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    opacity:.6;
+
+    transition:.3s;
+
+}
+
+.copy-btn:hover{
+
+    opacity:1;
+
+    transform:scale(1.1);
+
+}
+
+.ai{
+    
+
+    background:#1917178a;
+
+    color:white;
+
+}
+
+.user{
+
+    margin-left:auto;
+
+   background:#3c37378a;
+
+    color:white;
+
+}
+
+.input-area{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.input-area input{
+
+    flex:1;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    outline:none;
+
+    background:rgba(255,255,255,.05);
+
+    color:white;
+
+}
+
+.input-area button{
+
+    padding:0 25px;
+
+    border:none;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    background:var(--primary-color);
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.quick-prompts{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+.quick-prompts button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    color:white;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.3s;
+
+}
+
+.quick-prompts button:hover{
+
+    background:var(--primary-color);
+
+}
+
+.typing{
+
+    color:#94a3b8;
+
+    font-style:italic;
+
+    margin-top:10px;
+
+}

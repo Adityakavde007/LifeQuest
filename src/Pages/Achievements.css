@@ -1,0 +1,57 @@
+.achievements-page{
+    max-height: 80vh;
+}
+
+.achievement-list{
+    overflow-y: auto;
+
+    max-height: 85vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.achievement-card{
+
+    padding:25px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.achievement-bar{
+
+    height:10px;
+
+    margin-top:15px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.achievement-fill{
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #22c55e,
+        #3b82f6,
+        #8b5cf6
+    );
+
+    transition:.5s;
+
+}

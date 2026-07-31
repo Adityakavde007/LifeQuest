@@ -1,0 +1,78 @@
+.app.purple {
+  --primary-color: #8b5cf6;
+  --primary-glow: rgba(139, 92, 246, 0.5);
+
+  --gradient-one: #7c3aed;
+  --gradient-two: #065fd497;
+}
+
+.app.blue {
+  --primary-color: #06b6d4;
+  --primary-glow: rgba(6, 182, 212, 0.5);
+
+  --gradient-one: #0369a1;
+  --gradient-two: #2574eb9c;
+}
+
+.app.green {
+  --primary-color: #22c55e;
+  --primary-glow: rgba(34, 197, 94, 0.5);
+
+  --gradient-one: #15803c;
+  --gradient-two: #14b8a5aa;
+}
+
+.app.orange {
+  --primary-color: #f97416;
+  --primary-glow: rgba(249, 115, 22, 0.5);
+
+  --gradient-one: #c2400c;
+  --gradient-two: #ea660896;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: #0f172a;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* ------------Tablet------------- */
+
+@media (max-width:992px) {
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* -------------Mobile-------------- */
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 15px;
+    margin-top: 70px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
