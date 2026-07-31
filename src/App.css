@@ -65,11 +65,6 @@
     flex-direction: column;
   }
 
-  .mobile-header {
-        background: rgba(17, 25, 40, .95);
-        backdrop-filter: blur(18px);
-  }
-
   .main-content {
     width: 100%;
     padding: 15px;
