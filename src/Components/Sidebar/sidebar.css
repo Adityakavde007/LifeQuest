@@ -291,6 +291,12 @@ body {
 
         z-index: 1002;
 
+        background: rgba(17, 25, 40, .95);
+        backdrop-filter: blur(28px);
+        -webkit-backdrop-filter: blur(25px);
+
+        isolation: isolate;
+
         overflow-y: auto;
     }
 
